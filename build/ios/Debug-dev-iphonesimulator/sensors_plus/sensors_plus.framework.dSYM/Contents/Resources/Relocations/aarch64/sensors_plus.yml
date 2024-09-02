@@ -1,0 +1,37 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mobiledev/Documents/Project/mobile/build/ios/Debug-dev-iphonesimulator/sensors_plus/sensors_plus.framework/sensors_plus'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x59AF7, size: 0x8, addend: 0x0, symName: _sensors_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x2ED8, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x59B2C, size: 0x8, addend: 0x0, symName: _sensors_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x2F08, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x59B69, size: 0x8, addend: 0x0, symName: '+[FLTSensorsPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x1CB8, symSize: 0x320 }
+  - { offsetInCU: 0x41, offset: 0x59B83, size: 0x8, addend: 0x0, symName: __isCleanUp, symObjAddr: 0x6F40, symBinAddr: 0x9090, symSize: 0x0 }
+  - { offsetInCU: 0x5E, offset: 0x59BA0, size: 0x8, addend: 0x0, symName: _GRAVITY, symObjAddr: 0x2B18, symBinAddr: 0x2F20, symSize: 0x0 }
+  - { offsetInCU: 0x80, offset: 0x59BC2, size: 0x8, addend: 0x0, symName: __eventChannels, symObjAddr: 0x6F48, symBinAddr: 0x9098, symSize: 0x0 }
+  - { offsetInCU: 0x9B, offset: 0x59BDD, size: 0x8, addend: 0x0, symName: __streamHandlers, symObjAddr: 0x6F50, symBinAddr: 0x90A0, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0x59BF3, size: 0x8, addend: 0x0, symName: __motionManager, symObjAddr: 0x6F58, symBinAddr: 0x90A8, symSize: 0x0 }
+  - { offsetInCU: 0x12A, offset: 0x59C6C, size: 0x8, addend: 0x0, symName: '+[FLTSensorsPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x1CB8, symSize: 0x320 }
+  - { offsetInCU: 0x229, offset: 0x59D6B, size: 0x8, addend: 0x0, symName: '-[FLTSensorsPlusPlugin detachFromEngineForRegistrar:]', symObjAddr: 0x320, symBinAddr: 0x1FD8, symSize: 0x4 }
+  - { offsetInCU: 0x267, offset: 0x59DA9, size: 0x8, addend: 0x0, symName: '-[FLTSensorsPlusPlugin detachFromEngineForRegistrar:]', symObjAddr: 0x320, symBinAddr: 0x1FD8, symSize: 0x4 }
+  - { offsetInCU: 0x272, offset: 0x59DB4, size: 0x8, addend: 0x0, symName: __cleanUp, symObjAddr: 0xAD0, symBinAddr: 0x2788, symSize: 0x1C0 }
+  - { offsetInCU: 0x2B7, offset: 0x59DF9, size: 0x8, addend: 0x0, symName: __initMotionManager, symObjAddr: 0x324, symBinAddr: 0x1FDC, symSize: 0x48 }
+  - { offsetInCU: 0x2CD, offset: 0x59E0F, size: 0x8, addend: 0x0, symName: '-[FLTAccelerometerStreamHandlerPlus onListenWithArguments:eventSink:]', symObjAddr: 0x36C, symBinAddr: 0x2024, symSize: 0xB8 }
+  - { offsetInCU: 0x32A, offset: 0x59E6C, size: 0x8, addend: 0x0, symName: '___69-[FLTAccelerometerStreamHandlerPlus onListenWithArguments:eventSink:]_block_invoke', symObjAddr: 0x424, symBinAddr: 0x20DC, symSize: 0x54 }
+  - { offsetInCU: 0x3A6, offset: 0x59EE8, size: 0x8, addend: 0x0, symName: _sendTriplet, symObjAddr: 0x478, symBinAddr: 0x2130, symSize: 0x154 }
+  - { offsetInCU: 0x44A, offset: 0x59F8C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x5CC, symBinAddr: 0x2284, symSize: 0x10 }
+  - { offsetInCU: 0x473, offset: 0x59FB5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x5DC, symBinAddr: 0x2294, symSize: 0x8 }
+  - { offsetInCU: 0x492, offset: 0x59FD4, size: 0x8, addend: 0x0, symName: '-[FLTAccelerometerStreamHandlerPlus onCancelWithArguments:]', symObjAddr: 0x5E4, symBinAddr: 0x229C, symSize: 0x20 }
+  - { offsetInCU: 0x4D1, offset: 0x5A013, size: 0x8, addend: 0x0, symName: '-[FLTAccelerometerStreamHandlerPlus dealloc]', symObjAddr: 0x604, symBinAddr: 0x22BC, symSize: 0x44 }
+  - { offsetInCU: 0x512, offset: 0x5A054, size: 0x8, addend: 0x0, symName: '-[FLTUserAccelStreamHandlerPlus onListenWithArguments:eventSink:]', symObjAddr: 0x648, symBinAddr: 0x2300, symSize: 0xB8 }
+  - { offsetInCU: 0x56F, offset: 0x5A0B1, size: 0x8, addend: 0x0, symName: '___65-[FLTUserAccelStreamHandlerPlus onListenWithArguments:eventSink:]_block_invoke', symObjAddr: 0x700, symBinAddr: 0x23B8, symSize: 0x54 }
+  - { offsetInCU: 0x5EB, offset: 0x5A12D, size: 0x8, addend: 0x0, symName: '-[FLTUserAccelStreamHandlerPlus onCancelWithArguments:]', symObjAddr: 0x754, symBinAddr: 0x240C, symSize: 0x20 }
+  - { offsetInCU: 0x62A, offset: 0x5A16C, size: 0x8, addend: 0x0, symName: '-[FLTUserAccelStreamHandlerPlus dealloc]', symObjAddr: 0x774, symBinAddr: 0x242C, symSize: 0x44 }
+  - { offsetInCU: 0x66B, offset: 0x5A1AD, size: 0x8, addend: 0x0, symName: '-[FLTGyroscopeStreamHandlerPlus onListenWithArguments:eventSink:]', symObjAddr: 0x7B8, symBinAddr: 0x2470, symSize: 0xB8 }
+  - { offsetInCU: 0x6C8, offset: 0x5A20A, size: 0x8, addend: 0x0, symName: '___65-[FLTGyroscopeStreamHandlerPlus onListenWithArguments:eventSink:]_block_invoke', symObjAddr: 0x870, symBinAddr: 0x2528, symSize: 0x40 }
+  - { offsetInCU: 0x744, offset: 0x5A286, size: 0x8, addend: 0x0, symName: '-[FLTGyroscopeStreamHandlerPlus onCancelWithArguments:]', symObjAddr: 0x8B0, symBinAddr: 0x2568, symSize: 0x20 }
+  - { offsetInCU: 0x783, offset: 0x5A2C5, size: 0x8, addend: 0x0, symName: '-[FLTGyroscopeStreamHandlerPlus dealloc]', symObjAddr: 0x8D0, symBinAddr: 0x2588, symSize: 0x44 }
+  - { offsetInCU: 0x7C4, offset: 0x5A306, size: 0x8, addend: 0x0, symName: '-[FLTMagnetometerStreamHandlerPlus onListenWithArguments:eventSink:]', symObjAddr: 0x914, symBinAddr: 0x25CC, symSize: 0xC8 }
+  - { offsetInCU: 0x821, offset: 0x5A363, size: 0x8, addend: 0x0, symName: '___68-[FLTMagnetometerStreamHandlerPlus onListenWithArguments:eventSink:]_block_invoke', symObjAddr: 0x9DC, symBinAddr: 0x2694, symSize: 0x90 }
+  - { offsetInCU: 0x8A9, offset: 0x5A3EB, size: 0x8, addend: 0x0, symName: '-[FLTMagnetometerStreamHandlerPlus onCancelWithArguments:]', symObjAddr: 0xA6C, symBinAddr: 0x2724, symSize: 0x20 }
+  - { offsetInCU: 0x8E8, offset: 0x5A42A, size: 0x8, addend: 0x0, symName: '-[FLTMagnetometerStreamHandlerPlus dealloc]', symObjAddr: 0xA8C, symBinAddr: 0x2744, symSize: 0x44 }
+...

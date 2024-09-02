@@ -1,0 +1,37 @@
+import 'package:flutter/material.dart';
+
+import '../extensions/color_extension.dart';
+
+const clrGreyShimmerBase = Color(0xFFE7E7E7);
+const clrGreyShimmerHighlight = Color(0xFFBBBBBB);
+Color clr000000 = HexColor.fromHex('#000000');
+Color clrBackgroundBlack = HexColor.fromHex('#1E1E1E');
+Color clrBlack191 = HexColor.fromHex('#191C22');
+Color clrBlack1d2 = HexColor.fromHex('#1D2026');
+Color clrBlack3e3 = HexColor.fromHex('#3E3E3E');
+Color clrBlack080 = HexColor.fromHex('#080A10');
+Color clrBlack101 = HexColor.fromHex('#101217');
+Color clrBlack040 = HexColor.fromHex('#040914');
+Color clrYellow = HexColor.fromHex('#FFCC48');
+Color clrYellow2 = HexColor.fromHex('#F8DD7B');
+Color clrDarkBrown = HexColor.fromHex('#1F1302');
+Color clrGrey75 = HexColor.fromHex('#757575');
+Color clrNeutralGrey999 = HexColor.fromHex('#999999');
+Color clrGreyE5e = HexColor.fromHex('#E5E5E5');
+Color clrGreyF2f = HexColor.fromHex('#F2F2F2');
+Color clrGrey666 = HexColor.fromHex('#666666');
+Color clrRed = HexColor.fromHex('#FF4343');
+Color clrOrange = HexColor.fromHex('#E88824');
+Color clrTosca = HexColor.fromHex('#2CB9B5');
+Color clrNavyBlue = HexColor.fromHex('#001954');
+Color clrGreen00B = HexColor.fromHex('#00BC56');
+Color clrGreen00A = HexColor.fromHex('#00AE50');
+Color clrWhite = HexColor.fromHex('#FFFFFF');
+Color clrWhiteFef = HexColor.fromHex('#FEFEFE');
+Color clrPurple = HexColor.fromHex('#917FFF');
+Color clrPink = HexColor.fromHex('#EB65DD');
+Color clrBlue = HexColor.fromHex('#4A98DF');
+Color clrBlue006 = HexColor.fromHex('#0060FF');
+Color clrDarkBlue = HexColor.fromHex('#000C28');
+Color clrBlue141 = HexColor.fromHex('#141B2D');
+Color clrA8A8A8 = HexColor.fromHex('#A8A8A8');

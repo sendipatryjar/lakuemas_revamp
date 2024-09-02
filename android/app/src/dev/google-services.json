@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "713899172299",
+    "project_id": "lakuemas-dev",
+    "storage_bucket": "lakuemas-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713899172299:android:801bf584aff5ac1576964e",
+        "android_client_info": {
+          "package_name": "com.lakuemas.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713899172299-73o7dptm2jjtbpshbrdti896gj66j30k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZ2rUBF5K8CwFT4vLCQsZZHQEkY9UO5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713899172299-73o7dptm2jjtbpshbrdti896gj66j30k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713899172299-k8jjmeeiubhvj1pskmomb0v2hiotjcu8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lakuemas.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713899172299:android:dcbc73a4a5a8e18376964e",
+        "android_client_info": {
+          "package_name": "com.lakuemas.revamp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713899172299-73o7dptm2jjtbpshbrdti896gj66j30k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZ2rUBF5K8CwFT4vLCQsZZHQEkY9UO5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713899172299-73o7dptm2jjtbpshbrdti896gj66j30k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713899172299-k8jjmeeiubhvj1pskmomb0v2hiotjcu8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lakuemas.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

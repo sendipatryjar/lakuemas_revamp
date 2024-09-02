@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "1070811024002",
+    "firebase_url": "https://lakuemas-notification.firebaseio.com",
+    "project_id": "lakuemas-notification",
+    "storage_bucket": "lakuemas-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070811024002:android:24aeb93b814dfaa519c29b",
+        "android_client_info": {
+          "package_name": "com.appslakuemas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7tec3Z6FgdgRQJq9xs0Pux3crakn7ET0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1070811024002-83qhsu4a1pp908j15no8fsf3tjk5bjo2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "appslakuemas",
+                "app_store_id": "1401130641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070811024002:android:d43dad3a63c58fbf",
+        "android_client_info": {
+          "package_name": "com.lakuemas.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7tec3Z6FgdgRQJq9xs0Pux3crakn7ET0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1070811024002-83qhsu4a1pp908j15no8fsf3tjk5bjo2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "appslakuemas",
+                "app_store_id": "1401130641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070811024002:android:d7b376de3072445f",
+        "android_client_info": {
+          "package_name": "com.lakuemas.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7tec3Z6FgdgRQJq9xs0Pux3crakn7ET0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1070811024002-83qhsu4a1pp908j15no8fsf3tjk5bjo2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "appslakuemas",
+                "app_store_id": "1401130641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070811024002:android:5c0d84ef269af3a519c29b",
+        "android_client_info": {
+          "package_name": "com.lakuemas.app.rev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7tec3Z6FgdgRQJq9xs0Pux3crakn7ET0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070811024002-ro0u0ocbkkgohea1755cv8b7ts7hvm7t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1070811024002-83qhsu4a1pp908j15no8fsf3tjk5bjo2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "appslakuemas",
+                "app_store_id": "1401130641"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

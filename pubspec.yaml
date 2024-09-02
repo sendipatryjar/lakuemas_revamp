@@ -1,0 +1,102 @@
+name: lakuemas
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 5.0.0+36
+
+environment:
+  # sdk: ">=2.18.6 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  firebase_core: 2.7.1
+  firebase_core_platform_interface: 4.6.0
+  firebase_crashlytics: 3.0.16
+  firebase_analytics: 10.1.5
+  firebase_messaging: 14.2.6
+
+  cupertino_icons: ^1.0.2
+  go_router: ^10.0.0
+  intl: ^0.18.0
+  flutter_secure_storage: ^8.0.0
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  get_it: ^7.2.0
+  dio: ^5.0.2
+  dartz: ^0.10.1
+  flutter_easyloading: ^3.0.5
+  flutter_holo_date_picker: ^1.1.0
+  shimmer: ^3.0.0
+  flutter_local_notifications: ^15.1.0+1
+  camera: ^0.10.4
+  google_mlkit_text_recognition: ^0.10.0
+  jwt_decoder: ^2.0.1
+  path_provider: ^2.0.14
+  path: ^1.8.2
+  flutter_html: ^3.0.0-alpha.5
+  calendar_date_picker2: ^0.5.2
+  url_launcher: ^6.1.11
+  qr_code_scanner: ^1.0.1
+  syncfusion_flutter_charts: ^22.2.8
+  appcenter_sdk_flutter: ^0.5.1
+  share_plus: ^7.1.0
+  action_slider: ^0.7.0
+  qr_flutter: ^4.0.0
+  screenshot: ^2.1.0
+  scan: ^1.6.0
+  image_picker: ^1.0.2
+  webview_flutter: ^2.8.0
+  requests_inspector: ^3.1.2
+  flutter_unity_widget: ^2022.2.0
+  permission_handler: ^11.0.1
+  flutter_inappwebview: ^5.8.0
+  image_gallery_saver: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mockito: ^5.3.2
+  build_runner: ^2.3.3
+  flutter_launcher_icons: ^0.13.1
+  bloc_test: ^9.1.4
+
+flutter_icons:
+  image_path: "assets/icons/ic_launcher.png"
+  android: true
+  ios: true
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/html/
+    - shorebird.yaml
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600

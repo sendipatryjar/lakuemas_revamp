@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>IFRAME</title>
+        <style>
+            html,
+            body {
+                margin: 0;            /* Reset default margin */
+            }
+            iframe {
+                display: block;       /* iframes are inline by default */
+                border: none;         /* Reset default border */
+                height: 100vh;        /* Viewport-relative units */
+                width: 100vw;
+            }
+        </style>
+    </head>
+    <body style="height: 100vh;">
+        <iframe id="test-iframe" title="Child Iframe"
+            allow="camera *;microphone *">
+        </iframe>
+
+        <script>
+            console.log('initialize');
+            const frame = document.getElementById('test-iframe');
+            window.addEventListener("flutterInAppWebViewPlatformReady", function(event) {
+                window.flutter_inappwebview.callHandler('sendUrlToJs')
+                    .then(function(result) {
+                    // print to the console the data coming
+                    // from the Flutter side.
+                    console.log(JSON.stringify(result));
+                    frame.src = result.url;
+                    
+                });
+            });
+            var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+            var eventer = window[eventMethod];
+            var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+            // Listen to message from child window
+            eventer(messageEvent,function(e) {
+                var key = e.message ? "message" : "data";
+                var data = e[key];
+                
+                // only trust event from privypass_liveness source
+                if (data.source === 'privypass_liveness') {
+                    if (data.data.result === true) {
+                        window.flutter_inappwebview.callHandler('myHandlerName', ...[data.data]);
+                    }
+                }
+            }, false);
+        </script>
+    </body>
+</html>
